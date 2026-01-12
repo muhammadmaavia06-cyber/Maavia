@@ -2,10 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Professional Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f2933;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #111827;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2933;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Maavia</h1>
+
+<header>
+    <h1>Your Company Name</h1>
+    <p>Professional solutions you can trust</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>About Us</h2>
+        <p>
+            We provide high-quality professional services focused on reliability,
+            performance, and customer satisfaction.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Consulting</li>
+            <li>Web Development</li>
+            <li>Technical Support</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: contact@example.com</p>
+        <p>Phone: +1 234 567 890</p>
+    </div>
+</div>
+
+<footer>
+    © 2026 Your Company Name. All rights reserved.
+</footer>
+
 </body>
 </html>
